@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midia em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinamica</h1>
+    <p>Imagens</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/imgP.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/imgM.png" type="image/png">
+        <img src="Imagens/imgG.png" alt="fotoGrande">
+    </picture>
+
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir audio</p>
+
+
+    <audio preload="metadata" autoplay controls >
+        <source src="media/CKay - Love Nwantiti Remix ft. Joeboy & Kuami Eugene Ah Ah Ah (Official Video)_50k.mp3" type="audio/mpeg">
+        <source src="media/CKay - Love Nwantiti Remix ft. Joeboy & Kuami Eugene Ah Ah Ah (Official Video)_50k.ogg" type="audio/ogg">
+        <source src="media/CKay - Love Nwantiti Remix ft. Joeboy & Kuami Eugene Ah Ah Ah (Official Video)_50k.wav" type="audio/wav">
+        <p>Seu navegador nao reproduz audio....</p>
+    </audio>
+
+
+
+
+
+
+
+</body>
+</html>
