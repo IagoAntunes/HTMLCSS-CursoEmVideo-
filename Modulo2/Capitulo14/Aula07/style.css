@@ -1,0 +1,27 @@
+
+
+
+
+@font-face {
+    font-family:"Bella" ;
+    src: url("Fontes/BellaSafira.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+    /*
+    opentype(otf)
+    truetype(ttf)
+    embedded.opentype()
+    tryetype.aat()
+    svg
+    */
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1{
+    font-family: 'Bella';
+    color: red;
+    font-size: 2em;
+}
