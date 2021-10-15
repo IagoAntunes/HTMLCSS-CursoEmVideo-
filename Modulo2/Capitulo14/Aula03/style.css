@@ -1,0 +1,17 @@
+
+*{
+    margin: 0;
+}
+
+body{
+    font-family: cursive;
+}
+h1,h2{
+    background-color: aquamarine;
+    text-align: center;
+    font-size: 23px;
+    color: darkorange;
+}
+p{
+    text-align: center;
+}
