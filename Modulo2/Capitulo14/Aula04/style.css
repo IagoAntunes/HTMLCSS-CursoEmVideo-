@@ -1,0 +1,27 @@
+
+/*
+Medidas Asolutas
+cm , mm , in , px ,( pt , pc)papel 
+
+Medidas Relativas
+em , ex(altura x) , rem(relativo a fonte) , vw, vh , % 
+FONT-SIZE  -> px , em
+16px = 1em
+*/
+*{
+    margin: 0;
+}
+
+body{
+    font-family: cursive;
+    font-size: 1em;
+}
+h1,h2{
+    background-color: aquamarine;
+    text-align: center;
+    font-size: 23px;
+    color: darkorange;
+}
+p{
+    text-align: center;
+}
