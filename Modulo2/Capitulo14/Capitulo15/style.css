@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/*
+
+    id = #
+    class = .
+
+*/
+
+body{
+    background-color: darkkhaki;
+    font-family: sans-serif;
+    margin: 0;
+
+}
+h1{
+    color: darkgreen;
+}
+h1#principal{
+    text-align: center;
+    color: white;
+    background-color: darkgreen;
+    margin: 0;
+}
+h2{
+    color: olivedrab;
+}
+
+
