@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/*
+
+    id = # (um elemento)
+    class = .  (varios elementos)
+
+*/
+
+body{
+    background-color: darkkhaki;
+    font-family: sans-serif;
+    margin: 0;
+
+}
+h1{
+    color: darkgreen;
+}
+h1#principal{
+    text-align: center;
+    color: white;
+    background-color: darkgreen;
+    margin: 0;
+}
+h2{
+    color: olivedrab;
+}
+.basico{
+    color: green;
+}
+.intermediario{
+    color: #0b660b;
+}
+.avancado{
+    color: brown;
+}
+.css{
+    color: aquamarine;
+}
+
